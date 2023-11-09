@@ -1,0 +1,83 @@
+/* Apply Bebas Neue font to body or specific elements */
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333; /* Text color */
+}
+
+/* Style the file input and buttons */
+input[type="file"] {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+canvas {
+  display: block;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+/* Style the canvas elements */
+
+/* Style the download buttons */
+#downloadButton1,
+#downloadButton2,
+#downloadButton3,
+#downloadButton4,
+#downloadButton5,
+#downloadButton6 {
+  background-color: #28a745; /* Green background color */
+  border-radius: 5px;
+}
+
+#downloadButton1:hover,
+#downloadButton2:hover,
+#downloadButton3:hover,
+#downloadButton4:hover,
+#downloadButton5:hover,
+#downloadButton6:hover {
+  background-color: #1e7e34; /* Darker green on hover */
+}
+
+/* Style the hidden images */
+img[id^="bg-image"] {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Center the canvas and buttons */
+#canvas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add some spacing between canvas sections */
+canvas + br {
+  margin-top: 20px;
+}

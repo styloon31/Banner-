@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>XLSX Data on Image</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" integrity="sha512-r22gChDnGvBylk90+2e/ycr3RVrDi8DIOkIGNhJlKfuyQM4tIRAI062MaV8sfjQKYVGjOBaZBOA87z+IhZE9DA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <input type="file" id="xlsxFile" accept=".xlsx">
+  <input type="file" id="bgImage" accept="image/*">
+  <br>
+  <button id="loadButton">Player Stat attack Upload</button>
+  <button id="showButton">Show on First Canvas</button>
+  <br>
+  <canvas id="canvas" width="800" height="600"></canvas>
+
+  <input type="file" id="bgImage2" accept="image/*">
+  <br>
+  <button id="showOnSecondCanvas">Player Stat Defence Upload</button>
+  <br>
+  <canvas id="canvas2" width="800" height="600"></canvas>
+
+  <input type="file" id="bgImage3" accept="image/*">
+  <br>
+  <button id="showOnThirdCanvas">Team Stat 1 Upload</button>
+  <br>
+  <canvas id="canvas3" width="800" height="600"></canvas>
+
+  <input type="file" id="bgImage4" accept="image/*">
+  <br>
+  <button id="showOnFourthCanvas">Team Stat 2 Upload</button>
+  <br>
+  <canvas id="canvas4" width="800" height="600"></canvas>
+
+  <input type="file" id="bgImage5" accept="image/*">
+  <br>
+  <button id="showOnFifthCanvas">Performance against bases Upload</button>
+  <br>
+  <canvas id="canvas5" width="800" height="600"></canvas>
+
+  <input type="file" id="bgImage6" accept="image/*">
+  <br>
+  <button id="showOnSixthCanvas">Performance against bases Upload 2</button>
+  <br>
+  <canvas id="canvas6" width="800" height="600"></canvas>
+
+  <input type="file" id="bgImage7" accept="image/*">
+  <br>
+  <button id="showOnSeventhCanvas">Performance against Attack Strategy</button>
+  <br>
+  <canvas id="canvas7" width="800" height="600"></canvas>
+
+  <input type="file" id="bgImage8" accept="image/*">
+  <br>
+  <button id="showOnEightCanvas">Performance against Attack Strategy 2</button>
+  <br>
+  <canvas id="canvas8" width="800" height="600"></canvas>
+
+  <input type="file" id="bgImage9" accept="image/*">
+  <br>
+  <button id="showOnNinthCanvas">Most Used Bases</button>
+  <br>
+  <canvas id="canvas9" width="800" height="600"></canvas>
+
+  <input type="file" id="bgImage10" accept="image/*">
+  <br>
+  <button id="showOnTenthCanvas">Most Used Attacks</button>
+  <br>
+  <canvas id="canvas10" width="800" height="600"></canvas>
+
+  <input type="file" id="bgImage11" accept="image/*">
+  <br>
+  <button id="showOnEleventhCanvas">Most Used Attacks</button>
+  <br>
+  <canvas id="canvas11" width="800" height="600"></canvas>
+
+  <button id="downloadButton1">Player Stat attack Download</button>
+
+  <!-- Button to download the second canvas -->
+  <button id="downloadButton2">Player Stat Defence Download</button>
+
+  <!-- Button to download the third canvas -->
+  <button id="downloadButton3">Team Stat 1 Download</button>
+
+  <!-- Button to download the fourth canvas -->
+  <button id="downloadButton4">Team Stat 2 Download </button>
+
+  <!-- Button to download the fifth canvas -->
+  <button id="downloadButton5">Performance against bases Download </button>
+
+  <!-- Button to download the Sixth canvas -->
+  <button id="downloadButton6">Performance against bases Download 2</button>
+
+  <!-- Button to download the Seventh canvas -->
+  <button id="downloadButton7">Performance against Attack Strategy</button>
+
+  <!-- Button to download the Eight canvas -->
+  <button id="downloadButton8">Performance against Attack Strategy2</button>
+
+  <!-- Button to download the Ninth canvas -->
+  <button id="downloadButton9">Most Used Bases</button>
+
+  
+  <!-- Button to download the Tenth canvas -->
+  <button id="downloadButton10">Most Used Attack Strategies</button>
+   
+  <!-- Button to download the Tenth canvas -->
+  <button id="downloadButton11">Most Used Attack Strategies</button>  
+
+  <img id="bg-image" style="display: none;">
+  <img id="bg-image2" style="display: none;">
+  <img id="bg-image3" style="display: none;">
+  <img id="bg-image4" style="display: none;">
+  <img id="bg-image5" style="display: none;">
+  <img id="bg-image6" style="display: none;">
+  <img id="bg-image7" style="display: none;">
+  <img id="bg-image8" style="display: none;">
+  <img id="bg-image9" style="display: none;">
+  <img id="bg-image10" style="display: none;">
+
+  <!-- <script src="xlsx.full.min.js"></script> -->
+  <script src="https://github.com/styloon31/Banner-/blob/b1de7d066fb8dcc70e4f9fa4e788467b232be446/project%201/PLayerstatoffence.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script2.js"></script>
+  <script src="script3.js"></script>
+  <script src="script4.js"></script>
+  <script src="PerformanceAgainstBases.js"></script>
+  <script src="script6.js"></script>
+  <script src="script7.js"></script>
+  <script src="script8.js"></script>
+  <script src="script9.js"></script>
+  <script src="script10.js"></script>
+</body>
+</html>
